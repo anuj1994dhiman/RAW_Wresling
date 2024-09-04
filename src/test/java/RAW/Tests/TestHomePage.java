@@ -30,6 +30,10 @@ public class TestHomePage extends BaseTest{
 		landingPage.login("anu@example.com", "anjdh");
 		Assert.assertEquals(landingPage.getErrMessage(), "Incorrect email o password.");
 	}
+	@Test
+	public void test3() {
+		System.out.println("i am test3");
+	}
 //	@DataProvider
 //	public Object[][] getDataUsingObject() {
 //		Object[][] data = new Object[2][2];
